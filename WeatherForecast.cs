@@ -9,5 +9,7 @@ namespace GitTestingAPI
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
         public string? Summary2 { get; set; }
+
+        public int iii { get; set; }
     }
 }
